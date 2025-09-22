@@ -27,7 +27,6 @@ curl -L -O https://github.com/open-telemetry/opentelemetry-java-instrumentation/
 ### Build
 
 ```bash
-mvn clean compile
 mvn clean package
 ```
 
