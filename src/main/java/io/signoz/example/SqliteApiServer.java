@@ -75,7 +75,7 @@ public class SqliteApiServer {
 
     // Convert list to JSON array string
     @WithSpan("json_conversion")
-    private static String itemsToJson(@SpanAttribute("item_count") List<String> items) {
+    private static String itemsToJson(@SpanAttribute("items") List<String> items) {
         StringBuilder sb = new StringBuilder();
         sb.append("[");
         for (int i = 0; i < items.size(); i++) {
